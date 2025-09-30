@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Array Programs/matrix&apos; to &apos;matrix.cpp&apos;" description="Rename resource &apos;matrix&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="matrix" name="matrix.cpp" stamp="1758992080530" updateReferences="true"/>
+</session>
