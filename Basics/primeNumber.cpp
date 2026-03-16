@@ -4,28 +4,30 @@ using namespace std;
 int main()
 {
     int n;
-    int i = 2;
+    bool isPrime = true;
 
     cout << "Enter a Number: ";
     cin >> n;
 
     if(n <= 1)
     {
-        cout << "Not Prime Number";
+        cout << "Non Prime Number";
         return 0;
     }
 
-    while(i <= n-1)
+    for(int i = 2; i*i <= n; i++)
     {
         if(n % i == 0)
         {
-            cout << "Not Prime Number";
-            return 0;
+            isPrime = false;
+            break;
         }
-        i++;
     }
-
-    cout << "Prime Number";
+    if(isPrime == true){
+        cout << "Prime Number";
+    }else{
+        cout << "Non Prime Number";
+    }
 
     return 0;
 }
