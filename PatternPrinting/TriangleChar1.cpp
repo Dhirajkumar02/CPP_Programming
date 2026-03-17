@@ -4,10 +4,13 @@ int main(){
     int n;
     cout<<"Enter number: ";
     cin>>n;
+    
     for(int i = 0; i < n; i++)
     {
-        for(int j = 0; j < n; j++){
-            cout<<(i+1)<<" ";
+        char ch = 'A';
+        for(int j = 0; j < i+1; j++){ 
+            cout<<ch<<" ";
+            ch++;
         }
         cout<<endl;
     }
