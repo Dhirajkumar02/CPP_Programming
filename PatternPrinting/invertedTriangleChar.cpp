@@ -4,7 +4,7 @@ int main(){
     int n;
     cout<<"Enter number: ";
     cin>>n;
-    char ch = 'A';
+    char ch = 'a';
     for(int i = 0; i < n; i++)
     {
         
